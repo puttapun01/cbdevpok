@@ -279,7 +279,7 @@ function receivedMessage(event) {
         sendButtonMessage(senderID);
         break;
 
-      case 'generic':
+      case 'เลือกพนักงาน':
         sendGenericMessage(senderID);
         break;
 
@@ -583,10 +583,10 @@ function sendGenericMessage(recipientId) {
         payload: {
           template_type: "generic",
           elements: [{
-            title: "แว่น VR",
-            subtitle: "Virtual Reality รุ่นต่อไป",
+            title: "นายวุฒิพงษ์ เพชรนิล",
+            subtitle: "พนักงานราชการผู้แกร่งกล้าสามารถฝ่าฟันศัตรูทุกประเภท \nสามารถตอบคำถามได้ทุกประเภท\nสกิลพิเศษ : ควบคุมเวลา",
             item_url: "https://www.oculus.com/en-us/rift/",
-            image_url: SERVER_URL + "/assets/rift.png",
+            image_url: SERVER_URL + "/assets/cb1.jpg",
             buttons: [{
               type: "web_url",
               url: "https://www.oculus.com/en-us/rift/",
